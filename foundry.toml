@@ -14,7 +14,7 @@ rpc_endpoints = {mainnet = "https://rpc.ankr.com/eth", optimism = "https://rpc.a
 fs_permissions = [{ access = "read", path = "./"}]
 
 eth_rpc_url = "https://rpc.ankr.com/eth"
-fork_block_number = 14684685
+fork_block_number = 11128720
 remappings = [
   "forge-std=lib/forge-std/src/",
   "foundry-huff=lib/foundry-huff/src/",
