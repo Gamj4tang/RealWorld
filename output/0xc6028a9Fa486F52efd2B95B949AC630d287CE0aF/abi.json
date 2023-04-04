@@ -1,0 +1,45 @@
+[{
+  "type": "function",
+  "name": "uniswapV2Call",
+  "inputs": [
+    {
+      "name": "arg0",
+      "internalType": "address",
+      "type": "address"
+    },
+    {
+      "name": "arg1",
+      "internalType": "uint256",
+      "type": "uint256"
+    },
+    {
+      "name": "arg2",
+      "internalType": "uint256",
+      "type": "uint256"
+    },
+    {
+      "name": "arg3",
+      "internalType": "bytes",
+      "type": "bytes"
+    }
+  ],
+  "outputs": [],
+  "stateMutability": "nonpayable",
+  "constant": false
+},
+{
+  "type": "function",
+  "name": "skim",
+  "inputs": [],
+  "outputs": [],
+  "stateMutability": "nonpayable",
+  "constant": false
+},
+{
+  "type": "function",
+  "name": "init",
+  "inputs": [],
+  "outputs": [],
+  "stateMutability": "nonpayable",
+  "constant": false
+}]
