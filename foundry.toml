@@ -13,8 +13,15 @@ fuzz_runs = 1_000
 rpc_endpoints = {mainnet = "https://rpc.ankr.com/eth", optimism = "https://rpc.ankr.com/optimism", fantom = "https://rpc.ankr.com/fantom", arbitrum = "https://rpc.ankr.com/arbitrum",celo = "https://rpc.ankr.com/celo",bsc = "https://rpc.ankr.com/bsc", moonriver = "https://moonriver.public.blastapi.io", gnosis = "https://rpc.ankr.com/gnosis", Avalanche = "https://rpc.ankr.com/avalanche", polygon = "https://rpc.ankr.com/polygon"}
 fs_permissions = [{ access = "read", path = "./"}]
 
-eth_rpc_url = "https://rpc.ankr.com/eth"
-fork_block_number = 11128720
+
+# SuperFluid
+#eth_rpc_url = "https://rpc.ankr.com/polygon"
+#fork_block_number = 24684668
+
+
+#eth_rpc_url = "https://rpc.ankr.com/eth"
+#fork_block_number = 11128720
+
 remappings = [
   "forge-std=lib/forge-std/src/",
   "foundry-huff=lib/foundry-huff/src/",

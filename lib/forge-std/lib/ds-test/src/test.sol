@@ -34,6 +34,8 @@ contract DSTest {
     event log_named_uint         (string key, uint val);
     event log_named_bytes        (string key, bytes val);
     event log_named_string       (string key, string val);
+    event log_named_eat          (address token, uint256 amount);
+    
 
     bool public IS_TEST = true;
     bool private _failed;

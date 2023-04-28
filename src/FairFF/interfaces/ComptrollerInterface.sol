@@ -7,7 +7,7 @@ interface ComptrollerInterface {
     // bool public constant isComptroller = true;
 
     /*** Assets You Are In ***/
-
+    function getAccountLiquidity(address account) external view returns (uint256, uint256, uint256);
     function enterMarkets(address[] calldata cTokens) virtual external returns (uint[] memory);
     function exitMarket(address cToken) virtual external returns (uint);
 

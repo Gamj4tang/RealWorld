@@ -24,6 +24,7 @@ abstract contract Test is DSTest, Script {
     event log_named_array(string key, uint256[] val);
     event log_named_array(string key, int256[] val);
     event log_named_array(string key, address[] val);
+    // event log_named_eat(address token, uint256 amount);
 
     /*//////////////////////////////////////////////////////////////////////////
                                     STD-CHEATS
